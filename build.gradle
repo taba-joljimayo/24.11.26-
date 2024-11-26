@@ -10,7 +10,7 @@ sourceCompatibility = '23' // Java 버전 확인 후 수정
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
+		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
 
