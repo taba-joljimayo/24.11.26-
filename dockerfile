@@ -16,7 +16,10 @@ VOLUME /tmp
 # files gradle/wrapper/gradle-wrapper.jar
 #       gradle/wrapper/gradle-wrapper.properties
 
-COPY gradle/wrapper/ /app/gradle/wrapper/
+# COPY build/libs/gradle-wrapper.jar app.jar
+COPY gradle/wrapper/gradle-wrapper.jar app.jar
+
+#COPY gradle/wrapper/ /app/gradle/wrapper/
 
 EXPOSE 8080
 
